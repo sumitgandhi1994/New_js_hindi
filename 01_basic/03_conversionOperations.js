@@ -26,5 +26,30 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = 33;
 let stringNumber = String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+/* ************Operations*************** */
+let value = 30;
+let negValue = -value;
+// console.log(negValue);
+
+let str1 = "sumit";
+let str2 = " gandhi";
+let str3 = str1 + str2;
+// console.log(str3);
+
+// best conversion ever
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// spacial conversion
+// console.log(+true);
+// console.log(true+);
+
+// let num1, num2, num3, num4;
+// num1 = num2 = num3 = num4 = 4 + 5;
+// console.log(num1, num2, num3, num4);

@@ -34,10 +34,48 @@ const newStrOne = "       Sumit        ";
 const url = "https://naiti%20Technologies.com";
 // console.log(url);
 
-const newUrl = url.replace('%20','');
+const newUrl = url.replace("%20", "");
 // console.log(newUrl);
 
-console.log(url.includes('naitii'));
+// console.log(url.includes('naitii'));
+
+// console.log(url.split('-'));
+
+const uname = "Sumit";
+const repocount = 50;
+
+// console.log(uname + repoCount + ' Value');
+
+// console.log(`Hello my name is ${uname} and count is ${repoCount}`);
+
+let ustring = "Sumit";
+
+const gameName1 = new String("newGame fr geg gtrthrthththrhhthtth  hrrrt");
+
+// console.log(gameName1[2]);
+// console.log(gameName1.length);
+// console.log(gameName1.toLocaleUpperCase());
+// console.log(gameName1.charAt(2));
+// console.log(gameName1.indexOf('G'));
+// console.log(gameName1.indexOf('g'));
+
+const newString1 = gameName1.substring(0, 4);
+// console.log(newString1);
+
+const anotherString1 = gameName1.slice(-6, 6);
+// console.log(anotherString1);
+
+const newString2 = "         Sumit           "
+// console.log(newString2);
+// console.log(newString2.trim());
 
 
-console.log(url.split('-'));
+const newString3 =  "https://naiti%20technologies.com"
+
+// console.log(newString3.replace('%20', '-'));
+
+// console.log(newString3.includes('naiti1'));
+
+console.log(gameName1);
+console.log(gameName1.split(' '));
+console.log(gameName1.split(' ', 3));

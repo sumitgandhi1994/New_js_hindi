@@ -42,8 +42,27 @@ const myObj = {
 }
 
 const myFun = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
     
 }
 
-console.log(typeof outSideTemp)
+// console.log(typeof outSideTemp)
+
+// stack (primitive) Heap (non-primitive) mamory use krte h 
+
+let uname = "abc"
+
+let  newName = uname
+newName = 'xyz'
+console.log(uname);
+console.log(newName);
+
+
+let uone = {
+    email: 'one@gmail.com'
+}
+
+let utow = uone
+utow.email = "two@gmail.com"
+console.log(uone);
+console.log(utow);
